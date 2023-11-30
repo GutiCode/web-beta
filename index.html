@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolas Gutierrez</title>
+    <!--BOXICONS-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!--Header-->
+    <header class="header">
+        <a href="index.html" class="logo">Nicolas Gutierrez.</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skill">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It´s me</h3>
+            <h1>Nicolas Gutierrez</h1>
+            <h3>And I´m a <span id="multiple-text"></span></h3>
+            <p>Welcome to my web portfolio.</p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/nicolas-gutierrez-b6173a234/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/GutiCode?tab=repositories" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="#" onclick=copiarTextoEmail()><i class='bx bx-envelope' ></i></a>
+                <a href="#" onclick="copiarTextoNumero()"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <a href="cv-web.pdf" target="_blank" class="btn">Download CV</a>
+            
+        </div>
+
+        <div class="home-img">
+            <img src="img/presentation-image.png" alt="home-imagen">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about-image.png" alt="imagen-aboutme">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>
+                Hello! I'm Nicolas Gutierrez, a passionate student of Engineering at the Faculty of Engineering, University of the Republic (UdelaR). I consider myself a creative individual, always seeking new ways to improve and grow.
+            </p>
+            <h3>Education</h3>
+            <p>
+                Currently, I am immersed in my academic journey in Engineering at the renowned Faculty of Engineering at UdelaR. This environment has provided me with a solid foundation to tackle technical challenges and develop innovative solutions.
+            </p>
+            <h3>Skills and Professional Development</h3>
+            <p>
+                One of my greatest passions is programming. In addition to my studies, I am dedicating time to courses that expand and refine my skills in this field. I firmly believe in the importance of staying updated and learning continuously to adapt to the changing demands of the technological world.
+            </p>
+            <h3>Attitude and Commitment</h3>
+            <p>
+                I am a proactive and results-oriented person. I love working on challenging projects that allow me to apply and broaden my knowledge. My focus is on improvement day by day, both academically and in the development of practical skills.
+            </p>
+            <h3>Beyond Engineering</h3>
+            <p>
+                Although engineering is my primary focus, I also enjoy activities outside the academic and professional realm. I am passionate about football, an activity that balances my life and provides positive energy.
+            </p>
+            <h3>Contact</h3>
+            <p>
+                I am excited about what the future holds! If you would like to learn more about my projects, collaborate on innovative initiatives, or simply chat about football, feel free to get in touch!
+            </p>
+            <!--
+                <a href="#" class="btn">Read more</a>
+            -->
+        </div>
+    </section>
+
+    <!--Skill-->
+
+    <section class="skill" id="skill">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skill-container">
+            <div class="skill-box">
+                <i class='bx bxl-react' ></i>
+                <h3>React Course</h3>
+                <p>I'm currently taking a React course on Udemy, delving into key concepts of this JavaScript library for building interactive interfaces. Through practical lessons, I'm gaining strong skills for modern web development. Udemy's flexibility allows me to learn at my own pace, and I'm excited to apply this knowledge to practical projects.</p>
+                <!--
+                    <a href="#" class="btn">Read more</a>
+                -->
+            </div>
+    
+            <div class="skill-box">
+                <i class='bx bxl-aws' ></i>
+                <h3>AWS Course</h3>
+                <p>
+                    I am currently undertaking an AWS course on both Udemy and the official Amazon website. This comprehensive program explores Amazon Web Services, covering diverse aspects of cloud computing, including serverless architecture, storage solutions, and scalable infrastructure. The practical lessons on Udemy and the official AWS platform equip me with hands-on skills in deploying and managing applications in a cloud environment. The dual learning approach, leveraging both Udemy and Amazon's official resources, allows me to grasp the material thoroughly and apply it effectively to real-world projects.</p>
+                    <!--
+                        <a href="#" class="btn">Read more</a>
+                    -->
+            </div>
+    
+            <div class="skill-box">
+                <i class='bx bxs-book'></i>
+                <h3>English</h3>
+                <p>I currently have an intermediate level of proficiency in English and am actively working to improve it further. I recognize the importance of fluent communication in both personal and professional contexts. Continuous practice and a commitment to learning are key aspects of my strategy to achieve greater fluency in the language.</p>
+                <!--
+                    <a href="#" class="btn">Read more</a>
+                -->
+            </div>
+        </div>
+
+        <div class="skill-bar">
+            <i class='bx bxl-html5'></i>
+            <i class='bx bxl-css3'></i>
+            <i class="fa-brands fa-sass"></i>
+            <i class='bx bxl-javascript'></i>
+            <i class='bx bxl-php' ></i>
+            <i class='bx bxl-java' ></i>
+            <i class='bx bxl-react' ></i>
+            <i class='bx bxl-aws' ></i>
+            <i class="fa-solid fa-database"></i>
+        </div>
+        
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Lastest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/soon-image.png" alt="imagen-project">
+                <div class="portfolio-layer">
+                    <h4>Algo...</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ipsa</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/soon-image.png" alt="imagen-project">
+                <div class="portfolio-layer">
+                    <h4>Algo...</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ipsa</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/soon-image.png" alt="imagen-project">
+                <div class="portfolio-layer">
+                    <h4>Algo...</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ipsa</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/soon-image.png" alt="imagen-project">
+                <div class="portfolio-layer">
+                    <h4>Algo...</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ipsa</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/soon-image.png" alt="imagen-project">
+                <div class="portfolio-layer">
+                    <h4>Algo...</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ipsa</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/soon-image.png" alt="imagen-project">
+                <div class="portfolio-layer">
+                    <h4>Algo...</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ipsa</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/soon-image.png" alt="imagen-project">
+                <div class="portfolio-layer">
+                    <h4>Algo...</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ipsa</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/soon-image.png" alt="imagen-project">
+                <div class="portfolio-layer">
+                    <h4>Algo...</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ipsa</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-btn">
+            <a href="projects.html" class="btn">See more projects</a>
+        </div>
+    </section>
+<!--
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Menssage"></textarea>
+            <input type="submit" value="Send Menssage" class="btn">
+        </form>
+    </section>
+-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Nicolas Gutierrez | All Rights Reserved.</p>
+        </div>
+
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/nicolas-gutierrez-b6173a234/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/GutiCode?tab=repositories" target="_blank"><i class='bx bxl-github' ></i></a>
+            <a href="#" onclick=copiarTextoEmail()><i class='bx bx-envelope' ></i></a>
+            <a href="#" onclick="copiarTextoNumero()"><i class='bx bxl-whatsapp'></i></a>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!--ScrollReveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--Typed JS-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/09712e1fe9.js" crossorigin="anonymous"></script>
+
+    <!--SweetAlert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="js/scrips.js"></script>
+</body>
+</html>
